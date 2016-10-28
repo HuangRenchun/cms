@@ -1,0 +1,33 @@
+package com.cms.bean;
+
+public class Category {
+   private Long id;
+   private String name;
+   private Integer code;
+   public String getName() {
+	return name;
+}
+   public Category() {
+	super();
+}
+public Category(String name, Integer code) {
+	super();
+	this.name = name;
+	this.code = code;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public Integer getCode() {
+	return code;
+}
+public void setCode(Integer code) {
+	this.code = code;
+}
+public Long getId() {
+	return id;
+}
+public void setId(Long id) {
+	this.id = id;
+}
+}
